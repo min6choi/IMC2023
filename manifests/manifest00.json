@@ -1,0 +1,554 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://min6choi.github.io/IMC2023/manifests/manifest00.json",
+  "@type" : "sc:Manifest",
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : "Richard Long: A Journey Through Environmental Art"
+  }, {
+    "label" : "Subject ",
+    "value" : "Abstraction / Conceptual / Environmental art "
+  }, {
+    "label" : "Description",
+    "value" : "An exploration of six defining works, revealing his deep connection with nature and landscape."
+  }, {
+    "label" : "Creator",
+    "value" : "Richard Long "
+  }, {
+    "label" : "Publisher",
+    "value" : "The Metropolitan Museum of Art / Tate / The Museum of Modern Art "
+  }, {
+    "label" : "Contributor",
+    "value" : "Minsik Choi"
+  }, {
+    "label" : "Date",
+    "value" : "2023"
+  }, {
+    "label" : "Rights",
+    "value" : "© Richard Long"
+  }, {
+    "label" : "Language",
+    "value" : "English"
+  } ],
+  "description" : [ ],
+  "sequences" : [ {
+    "@id" : "http://77a7b266-fea3-400b-b8e3-a404dd56f1ad",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a3cc2578-5906-4b66-966a-738a01821405",
+      "@type" : "sc:Canvas",
+      "label" : "County Cork, Ireland (1967)",
+      "height" : 732,
+      "width" : 1000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2dcef539-a26e-4d10-87a3-0ac610874bac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/01.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/01.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 732000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 732,
+          "width" : 1000
+        },
+        "on" : "http://a3cc2578-5906-4b66-966a-738a01821405"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "County Cork, Ireland"
+      }, {
+        "label" : "Title",
+        "value" : "County Cork, Ireland"
+      }, {
+        "label" : "Subject ",
+        "value" : "Abstraction / Conceptual / Environmental art / Nature / Geometric figures"
+      }, {
+        "label" : "Description",
+        "value" : "Richard Long revolutionized sculpture, emphasizing bodily gestures and ephemeral landscape works. Schooled under Anthony Caro, Long adopted a more simplistic, life-integrated form of geometric abstraction. His solitary countryside walks culminated in elemental forms, imprinted by his steps. Works like 'County Cork, Ireland', underscore a symbiotic relationship between the concept, physical action, and site. Long's understanding of the deep ties between British culture and landscape, from ancient hill figures to Picturesque theories, informs his art."
+      }, {
+        "label" : "Creator",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher ",
+        "value" : "The Metropolitan Museum of Art "
+      }, {
+        "label" : "Date Created",
+        "value" : "1967"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Image: 76.2 x 101.6 cm (30 x 40 in.)\nFrame: 78.1 x 103.5 cm (30 3/4 x 40 3/4 in.)"
+      }, {
+        "label" : "Identifier ",
+        "value" : "2010.12"
+      }, {
+        "label" : "Source ",
+        "value" : "https://www.metmuseum.org/art/collection/search/291696?sortBy=Relevance&amp;when=A.D.+1900-present&amp;ao=on&amp;ft=Richard+Long&amp;offset=0&amp;rpp=40&amp;pos=2"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Relation IsPartOf",
+        "value" : "Photographs at The Met\n"
+      }, {
+        "label" : "Provenance",
+        "value" : "the artist; [John Gibson, New York]; [Virginia Dwan, New York]; artist; [Sperone Westwater Gallery, New York]"
+      }, {
+        "label" : "Exhibition history ",
+        "value" : "John Gibson Gallery. \"Richard Long,\" February 22, 1969–March 14, 1969. / The Metropolitan Museum of Art. \"Between Here and There: Passages in Contemporary Photography,\" July 2, 2010–February 13, 2011. / New York. The Metropolitan Museum of Art. \"Land Marks,\" April 30–August 25, 2013."
+      }, {
+        "label" : "Medium ",
+        "value" : "Gelatin silver print"
+      }, {
+        "label" : "Classification",
+        "value" : "Photographs"
+      }, {
+        "label" : "On display",
+        "value" : "Not on display"
+      } ]
+    }, {
+      "@id" : "http://c9c19b81-29f8-459e-b522-e3280e6e6fc0",
+      "@type" : "sc:Canvas",
+      "label" : "A Hundred Mile Walk (1971-1972)",
+      "height" : 710,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0d66107c-abe8-41ce-adb3-d27907fb625e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/02.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/02.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1090560,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 710,
+          "width" : 1536
+        },
+        "on" : "http://c9c19b81-29f8-459e-b522-e3280e6e6fc0"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "Dartmoor, England"
+      }, {
+        "label" : "Title",
+        "value" : "A Hundred Mile Walk"
+      }, {
+        "label" : "Subject",
+        "value" : "Abstraction / Conceptual / Environmental art / Maps / Nature / "
+      }, {
+        "label" : "Description ",
+        "value" : "\"A Hundred Mile Walk\" documents Long's circular journey on Dartmoor during New Year 1971–2. The work recounts his encounters with nature's sounds, his anticipation and eventual fading of rivers' murmurs, and the pockets of sound in gullies. Besides describing his sensory experiences, it also delves into his internal reflections. 'Corrina, Corrina' (Day 6) alludes to a traditional folk song popularized by Bob Dylan."
+      }, {
+        "label" : "Creator ",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher",
+        "value" : "Tate"
+      }, {
+        "label" : "Date Created",
+        "value" : "1971-1972"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights ",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Frame: 634 × 914 × 12 mm\nUnconfirmed: 216 × 483 mm"
+      }, {
+        "label" : "Identifier",
+        "value" : "T01720"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.tate.org.uk/art/artworks/long-a-hundred-mile-walk-t01720"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Relation IsPartOf",
+        "value" : "Richard Long's Walking works series\n"
+      }, {
+        "label" : "Provenance",
+        "value" : "Purchased 1973"
+      }, {
+        "label" : "Exhibition history",
+        "value" : "Tate Liverpool .\"Richard Long exhibition,\" January 23, 1991–March 3, 1991"
+      }, {
+        "label" : "Medium ",
+        "value" : "Graphite on map, typescript, photograph, gelatin silver print on paper and printed labels on board"
+      }, {
+        "label" : "Classification",
+        "value" : "Photographs / Diagrams"
+      }, {
+        "label" : "On display",
+        "value" : "Not on display"
+      } ]
+    }, {
+      "@id" : "http://533e3104-e08c-4c4d-a36d-b9609bca9f26",
+      "@type" : "sc:Canvas",
+      "label" : "A Line in the Himalayas (1975)\n",
+      "height" : 1040,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://25ab95b5-cb73-4927-95be-c70f73d7119f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/03.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/03.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1597440,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1040,
+          "width" : 1536
+        },
+        "on" : "http://533e3104-e08c-4c4d-a36d-b9609bca9f26"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "Himalayas, Nepal"
+      }, {
+        "label" : "Title",
+        "value" : "A Line in the Himalayas\n"
+      }, {
+        "label" : "Subject",
+        "value" : "Abstraction / Conceptual / Environmental art / Landscapes / Nature"
+      }, {
+        "label" : "Description ",
+        "value" : "\"A Line in the Himalayas\" exemplifies his pioneering art form centered on walking and environmental interaction. The piece features a line of white stones laid out during a Nepalese Himalayan trek, merging sculpture, photography, and landscape in a unique, conceptual statement. These elements echo Long's broader practices, embedding transient, non-expressive gestures in natural terrain."
+      }, {
+        "label" : "Creator ",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher",
+        "value" : "Tate"
+      }, {
+        "label" : "Date Created",
+        "value" : "1975"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights ",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Image: 860 × 1284 mm\nframe: 871 × 1291 × 37 mm"
+      }, {
+        "label" : "Identifier",
+        "value" : "T12035"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.tate.org.uk/art/artworks/long-a-line-in-the-himalayas-t12035"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Provenance",
+        "value" : "Presented by the artist (Building the Tate Collection) 2005"
+      }, {
+        "label" : "Medium ",
+        "value" : "Digital print on paper mounted onto aluminium"
+      }, {
+        "label" : "Classification",
+        "value" : "Photographs"
+      }, {
+        "label" : "On display",
+        "value" : "Not on display"
+      } ]
+    }, {
+      "@id" : "http://bb02b1e2-54c1-4ca0-8ec4-cbd20cdeb3ae",
+      "@type" : "sc:Canvas",
+      "label" : "Cornish Stone Circle (1978)",
+      "height" : 953,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://89c1807f-904f-4bde-ace6-6282c353bebf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/04.jpeg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/04.jpeg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1906000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 953,
+          "width" : 2000
+        },
+        "on" : "http://bb02b1e2-54c1-4ca0-8ec4-cbd20cdeb3ae"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "New York, United States"
+      }, {
+        "label" : "Title",
+        "value" : "Cornish Stone Circle"
+      }, {
+        "label" : "Subject",
+        "value" : "Abstraction / Conceptual / Environmental art / Rock (inorganic material) / Geometric figures\n"
+      }, {
+        "label" : "Description ",
+        "value" : "\"Cornish Stone Circle\" reflects the prehistoric stone circles of his native England, reimagining Minimalist sculpture with its ground-level, mutable form and use of the natural environment. This artwork, potentially altered in placement, bridges the physical object and its location, presenting not just a sculpture, but an embodiment of a distant site. Its 'primitive' influence melds with Conceptual art's exploration of diverse visual-verbal experiences."
+      }, {
+        "label" : "Creator ",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher",
+        "value" : "The Museum of Modern Art "
+      }, {
+        "label" : "Date Created",
+        "value" : "1978"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights ",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Overall 19' 8 3/8\" (600 cm) in diameter"
+      }, {
+        "label" : "Identifier",
+        "value" : "460.1978.a-zz"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/81483"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Provenance",
+        "value" : "Gift of Barbara Jakobson and John R. Jakobson, Junior Council and Anonymous Funds"
+      }, {
+        "label" : "Medium ",
+        "value" : "Stone slabs (Delabole slate), in 52 parts"
+      }, {
+        "label" : "Classification",
+        "value" : "Sculpture"
+      }, {
+        "label" : "On display",
+        "value" : "Not on display"
+      } ]
+    }, {
+      "@id" : "http://5fbf6c20-396d-49dd-8357-1220dd0e4e1c",
+      "@type" : "sc:Canvas",
+      "label" : "Sahara Circle (1988)",
+      "height" : 1030,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d90c6e10-736f-49cf-b8e5-a2e61a5a0d3d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/05.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/05.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1582080,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1030,
+          "width" : 1536
+        },
+        "on" : "http://5fbf6c20-396d-49dd-8357-1220dd0e4e1c"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "Sahara, Algeria"
+      }, {
+        "label" : "Title",
+        "value" : "Sahara Circle"
+      }, {
+        "label" : "Subject",
+        "value" : "Abstraction / Conceptual / Environmental art / Landscapes / Rock (inorganic material) /"
+      }, {
+        "label" : "Description ",
+        "value" : "\"Sahara Circle\" is a unique artwork by Richard Long, conceived during a journey through the Hoggar region of the Sahara. This piece features a distinctive circular arrangement of rocks that Long meticulously set within a cleared patch of fragmented stones. Although the circle has timeless and universal connotations, Long emphasizes that his work refrains from symbolic or mystical interpretations. Instead, it embodies his simple, yet profound interaction with the natural environment."
+      }, {
+        "label" : "Creator ",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher",
+        "value" : "Tate"
+      }, {
+        "label" : "Date Created",
+        "value" : "1988"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights ",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Image: 159 × 1276 mm\nsupport: 863 × 1281 × 2 mm\nsupport, secondary: 863 × 1281 × 1 mm\nframe: 872 × 1291 × 37 mm"
+      }, {
+        "label" : "Identifier",
+        "value" : "T12036"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.tate.org.uk/art/artworks/long-sahara-circle-t12036"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Provenance",
+        "value" : "Presented by the artist (Building the Tate Collection) 2005"
+      }, {
+        "label" : "Medium ",
+        "value" : "Digital print on paper mounted onto aluminium"
+      }, {
+        "label" : "Classification",
+        "value" : "Photographs"
+      }, {
+        "label" : "On display",
+        "value" : "Not on display"
+      } ]
+    }, {
+      "@id" : "http://6da52a48-8387-426b-b666-d212b9fbba2b",
+      "@type" : "sc:Canvas",
+      "label" : "In the Cloud (1991)",
+      "height" : 998,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://528b38f1-682a-4ff7-b12f-aacbc578eb16",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/06.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/06.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1532928,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 998,
+          "width" : 1536
+        },
+        "on" : "http://6da52a48-8387-426b-b666-d212b9fbba2b"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Coverage Spatial",
+        "value" : "Scotland"
+      }, {
+        "label" : "Title",
+        "value" : "In the Cloud"
+      }, {
+        "label" : "Subject",
+        "value" : "Abstraction / Conceptual / Environmental art / Documentary (general concept) / Texts (documents) "
+      }, {
+        "label" : "Description ",
+        "value" : "\"In the Cloud,\" a textual piece, describes Long's eight-day walk across Scotland in 1991, notably his time in the cloud on Ben MacDui, the highest point. His affinity for Scotland's wilderness and his concept of walking as art are central to this work. The text is concise, devoid of unnecessary details, with Long considering it an elegant way to convey his ideas. He employs text for its distinctive capabilities, offering an alternative to photographical or sculptural representation, often providing a more comprehensive account of his walks."
+      }, {
+        "label" : "Creator ",
+        "value" : "Richard Long "
+      }, {
+        "label" : "Publisher",
+        "value" : "Tate"
+      }, {
+        "label" : "Date Created",
+        "value" : "1991"
+      }, {
+        "label" : "DCMIType",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Rights ",
+        "value" : "© Richard Long"
+      }, {
+        "label" : "Format Extent",
+        "value" : "Image: 1055 × 1550 mm\nframe: 1064 × 1560 × 40 mm"
+      }, {
+        "label" : "Identifier",
+        "value" : "AR00143"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.tate.org.uk/art/artworks/long-in-the-cloud-ar00143"
+      }, {
+        "label" : "Language",
+        "value" : "English"
+      }, {
+        "label" : "Provenance",
+        "value" : "Presented by the artist (Building the Tate Collection) 2005"
+      }, {
+        "label" : "Medium ",
+        "value" : "Screenprint on board"
+      }, {
+        "label" : "Classification",
+        "value" : "documentary"
+      }, {
+        "label" : "On display",
+        "value" : "IN TATE MODERN Level 4: Joiner Galleries: ARTIST ROOMS: Art and Text\n"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
